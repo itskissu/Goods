@@ -27,7 +27,7 @@ SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '25062453'))
 API_HASH = environ.get('API_HASH', 'ccf735bb7d834b95ec85657c604cb49f')
 OWNER_ID = environ.get('OWNER_ID', '6670354006')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6625875921:AAEyc5QoqfghLeEUicDK4BMTOFXFNBSwqQA")
 
 # for eval function, work only in a specific group
 EVAL_ID = environ.get("EVAL_ID", "-1001566837125")
@@ -69,7 +69,7 @@ COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 PREFIX = environ.get("PREFIX", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Yousay:Yousay@cluster0.n8rdztl.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://3rc8kisoem:xymQqPIANbkFFK7X@cluster0.avgnpd3.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -88,9 +88,9 @@ TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫ
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
-VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shareus.io')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+VERIFY = bool(environ.get('VERIFY', True))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'indianshortner.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '57e68f20d8a10be3824c159ab6f9ba88e5e555d9')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', '')
 SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
