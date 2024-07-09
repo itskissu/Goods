@@ -27,7 +27,7 @@ SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '25062453'))
 API_HASH = environ.get('API_HASH', 'ccf735bb7d834b95ec85657c604cb49f')
 OWNER_ID = environ.get('OWNER_ID', '6670354006')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6625875921:AAEyc5QoqfghLeEUicDK4BMTOFXFNBSwqQA")
+BOT_TOKEN = environ.get('BOT_TOKEN', '6625875921:AAEyc5QoqfghLeEUicDK4BMTOFXFNBSwqQA')
 
 # for eval function, work only in a specific group
 EVAL_ID = environ.get("EVAL_ID", "-1001566837125")
