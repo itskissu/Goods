@@ -88,9 +88,9 @@ TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫ
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
-VERIFY = bool(environ.get('VERIFY', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'indianshortner.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '57e68f20d8a10be3824c159ab6f9ba88e5e555d9')
+VERIFY = bool(environ.get('VERIFY', False))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', '')
 SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
