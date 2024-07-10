@@ -22,7 +22,7 @@ async def ai_generate(client, message):
   
     if user_input.lower() in ["who is your owner", "what is your owner name"]:  
         buttons = [[
-            InlineKeyboardButton("ɢʀᴏᴜᴘ", url="https://t.me/weebs_support")
+            InlineKeyboardButton("ɢʀᴏᴜᴘ", url="https://t.me/pwlived")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_sticker("CAACAgUAAxkBAAEBVPFlqURKlcRL5gwsCr_95NUy1yomWAACbQgAAqkDGFZZit7uxEySIh4E")
