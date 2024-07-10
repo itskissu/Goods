@@ -56,7 +56,7 @@ async def link_handler(Mbot, message):
                    if ddinsta:
                       dump_file=await message.reply_video(content_value,caption="ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ʙʏ @kissu_movies_bot")
                    else:
-                       dump_file=await message.reply_video(content_value, caption="ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ʙʏ @Lucy_Filter_bot")
+                       dump_file=await message.reply_video(content_value, caption="ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ʙʏ @kissu_movies_bot")
                except:
                    downfile=f"{os.getcwd()}/{random.randint(1,10000000)}"
                    with open(downfile,'wb') as x:
