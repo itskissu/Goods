@@ -111,13 +111,7 @@ Hᴇʟᴘ : <b>Sᴇᴛᴛɪɴɢꜱ</b>
 • /connect - ᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ ʙᴏᴛ
 • /settings - ᴄʜᴀɴɢᴇ sᴇᴛᴛɪɴɢs ᴀs ʏᴏᴜʀ ᴡɪsʜ """
 
-    TELEGRAPH_TXT = """ Hᴇʟᴘ : <b>Tᴇʟᴇɢʀᴀᴘʜ</b>
-
-<b>Nᴏᴛᴇ</b>: ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪꜱ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ᴘᴍꜱ. ᴀʟꜱᴏ ᴄᴀɴ ʙᴇ ᴜꜱᴇ ʙʏ ᴇᴠᴇʀʏᴏɴᴇ.
-
-<b>Cᴏᴍᴍᴀɴᴅs & Usᴀɢᴇ :</b>
-• /telegraph - sᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇᴏ ᴜɴᴅᴇʀ 𝟻ᴍʙ"""
-
+    
     FONT_TXT = """Hᴇʟᴘ : <b>Fᴏɴᴛ</b>
 
 <b>Nᴏᴛᴇ</b>: ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ᴍᴏᴅᴇ ᴛᴏ ᴄʜᴀɴɢᴇ ʏᴏᴜʀ ꜰᴏɴᴛꜱ ꜱᴛʏʟᴇ, ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ʟɪᴋᴇ ᴛʜɪꜱ ꜰᴏʀᴍᴀᴛ. 
@@ -378,56 +372,6 @@ IMDb Data:
 • /plink - ᴊᴜsᴛ ʟɪᴋᴇ <code>/link</code>, ʙᴜᴛ ᴛʜᴇ ғɪʟᴇ ᴡɪʟʟ ʙᴇ sᴇɴᴅ ᴡɪᴛʜ ғᴏʀᴡᴀʀᴅ ʀᴇsᴛʀɪᴄᴛɪᴏɴ."""
 
 
-    YTTHUMB = """<b>ʏᴛ-ᴛʜᴜᴍʙ
-
-ʜᴇʟᴘs ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ ʏᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏ ᴛʜᴜᴍʙɴᴀɪʟ
-
-
-ᴜsᴇ ᴛʜɪs ꜰᴏʀᴍᴀᴛ 👇</b> 
-
-<code>/ytthumb https://youtu.be/BqlyABHOE</code>"""
-
-    GITHUB = """<b>ɢɪᴛʜᴜʙ ᴅᴇᴛᴀɪʟs -</b>
-
-ᴡɪᴛʜ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ, ʏᴏᴜ ᴄᴀɴ ꜰɪɴᴅ ᴏᴜᴛ ᴛʜᴇ ꜰᴜʟʟ ᴅᴇᴛᴀɪʟs ᴏꜰ ᴛʜᴇ ɢɪᴛʜᴜʙ ᴀᴄᴄᴏᴜɴᴛ ᴏꜰ ᴀɴʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴏʀ ᴜsᴇʀs ᴡʜᴏ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ
-
-ᴜsᴇ ᴛʜɪs ꜰᴏʀᴍᴀᴛ 👇
-
-❍ /github kissuXbots
-❍ /git : to get github id information
-"""
-
-    YTTAGS = """<b>ꜰᴏʀ ʏᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏ ᴛᴀɢs -
-
-ʏᴏᴜ ᴄᴀɴ ꜰɪɴᴅ ᴏᴜᴛ ᴛʜᴇ ᴛᴀɢs ᴏꜰ ᴀɴʏ ʏᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏ ᴡɪᴛʜ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ
-
-➤  Command:
-
-/yttags - Reply to a YouTube video</b>"""
-
-    VIDEO_TXT ="""<b>ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴜʟᴇ
-
-ʏᴏᴜ ᴄᴀɴ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ ᴠɪᴅᴇᴏ ꜰʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ
-
-➤  ᴄᴏᴍᴍᴀɴᴅs
-
-ᴛʏᴘᴇ /video or /mp4
-
-ᴇxᴀᴍᴘʟᴇ :</b>
-
-<code>/mp4 https://youtu.be/BqlyABHOE</code>
-
-<code>/video https://youtu.be/BqlMwyAB</code>"""
-
-    REPORT = """<b>ʀᴇᴘᴏʀᴛ 🧑🏻‍✈️  
-
-ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ʜᴇʟᴘs ʏᴏᴜ ᴛᴏ ʀᴇᴘᴏʀᴛ ᴀ ᴍᴇssᴀɢᴇ ᴏʀ ᴀ ᴜsᴇʀs ᴛᴏ ᴛʜᴇ ᴀᴅᴍɪɴs ᴏꜰ ᴛʜᴇ ʀᴇsᴘᴇᴄᴛɪᴠᴇ ɢʀᴏᴜᴘ
-
-
-➤  𝐂𝐨𝐦𝐦𝐚𝐧𝐝 :
-
-/report 𝗈𝗋 @admin - 𝖳𝗈 𝗋𝖾𝗉𝗈𝗋𝗍 𝖺 𝗎𝗌𝖾𝗋 𝗍𝗈 𝗍𝗁𝖾 𝖺𝖽𝗆𝗂𝗇𝗌 (𝗋𝖾𝗉𝗅𝗒 𝗍𝗈 𝖺 𝗆𝖾𝗌𝗌𝖺𝗀𝖾).</b>"""
-
     MIKEY = """
 <b> 𓆩•𝐊𝐢𝐬𝐬𝐮 💞•𓆪 ʙɪᴏ 🙋‍♂
 
@@ -441,24 +385,7 @@ IMDb Data:
 ╰─➩ ᴘʟᴀᴄᴇ - ᴘᴀᴛɴᴀ,ʙɪʜᴀʀ,Iɴᴅɪᴀ
 ╰─➩ ᴋɴᴏᴡɴ ʟᴀɴɢᴜᴀɢᴇꜱ - ᴇɴɢʟɪꜱʜ, ʜɪɴᴅɪ, ʙʜᴏjᴘᴜʀɪ</b>"""
 
-    GEN_PASS = """<b>ᴘᴀssᴡᴏʀᴅ ɢᴇɴᴇʀᴀᴛᴏʀ</b>
-
-There Is Nothing To Know More. Send Me The Limit Of Your Password.
-
-- I Will Give The Password Of That Limit.
-
-➤ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝:
-
-• /genpassword or /genpw 20
-
-NOTE:
-• Only Digits Are Allowed
-• Maximum Allowed Digits Till 84 
-  (I Can't Generate Passwords Above The Length 84)
-• IMDb should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
-
+    
     OPNAI_TXT = """ᴏᴘᴇɴᴀɪ ɪꜱ ᴀ ᴀɪ ꜱʏꜱᴛᴇᴍ ᴛʜᴀᴛ ᴡɪʟʟ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ꜰɪɴᴅ ᴀɴꜱᴡᴇʀ ᴏꜰ ʏᴏᴜʀ Qᴜᴇꜱᴛɪᴏɴ ᴀɴᴅ ɪᴛ ᴡɪʟʟ ᴏɴʟʏ ᴡᴏʀᴋ ᴏɴ ʙᴏᴛ ᴘᴍ.
 
 ʜᴏᴡ ᴛᴏ ᴜꜱᴇ
@@ -466,11 +393,6 @@ NOTE:
 /ᴏᴘᴇɴᴀɪ ᴡʜᴀᴛ ɪꜱ ᴀᴘᴘᴇɴᴅ ᴍᴇᴛʜᴏᴅ ɪɴ ᴘʏᴛʜᴏɴ
 """
 
-    KANG = """
-𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐰𝐧 𝐒𝐭𝐢𝐜𝐤𝐞𝐫 𝐀𝐧𝐝 𝐒𝐭𝐢𝐜𝐤𝐞𝐫 𝐏𝐚𝐜𝐤
-𝐒𝐞𝐧𝐝 𝐓𝐨 𝐈𝐦𝐚𝐠𝐞
-𝐑𝐞𝐩𝐥𝐲 𝐭𝐨 𝐢𝐦𝐚𝐠𝐞 𝐚𝐧𝐝 𝐬𝐞𝐧𝐝 /𝐤𝐚𝐧𝐠 𝐂𝐨𝐦𝐦𝐚𝐧𝐝
-"""
 
     GROUP_TXT = """
 <b>๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ɢᴇᴛ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴜs.
@@ -485,69 +407,12 @@ NOTE:
 
 ◉ /purge :- ᴅᴇʟᴇᴛᴇ ᴀʟʟ ᴍᴇssᴀɢᴇs ꜰʀᴏᴍ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴏ ᴍᴇssᴀɢᴇ, ᴛᴏ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴍᴇssᴀɢᴇ​</b>"""
 
-    JSON_TXT = """<b>
-ᴊsᴏɴ:
-
-ʙᴏᴛ ʀᴇᴛᴜʀɴs ᴊsᴏɴ ꜰᴏʀ ᴀʟʟ ʀᴇᴘʟɪᴇᴅ ᴍᴇssᴀɢᴇs ᴡɪᴛʜ /json
-
-ꜰᴇᴀᴛᴜʀᴇs:
-
-ᴍᴇssᴀɢᴇ ᴇᴅɪᴛᴛɪɴɢ ᴊsᴏɴ
-ᴘᴍ sᴜᴘᴘᴏʀᴛ
-ɢʀᴏᴜᴘ sᴜᴘᴘᴏʀᴛ
-
-ɴᴏᴛᴇ:
-
-ᴇᴠᴇʀʏᴏɴᴇ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ , ɪꜰ sᴘᴀᴍɪɴɢ ʜᴀᴘᴘᴇɴs ʙᴏᴛ ᴡɪʟʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ʙᴀɴ ʏᴏᴜ ꜰʀᴏᴍ ᴛʜᴇ ɢʀᴏᴜᴘ.​</b>"""
-
-    CARB_TXT = """<b>ʜᴇʟᴩ ꜰᴏʀ ᴄᴀʀʙᴏɴ
-
-ᴄᴀʀʙᴏɴ ɪꜱ ᴀ ꜰᴇᴜᴛᴜʀᴇ ᴛᴏ ᴍᴀᴋᴇ ᴛʜᴇ ɪᴍᴀɢᴇ ᴀꜱ ꜱʜᴏᴡɴ ɪɴ ᴛʜᴇ ᴛᴏᴩ ᴡɪᴛʜ ʏᴏᴜʀ ᴛᴇxᴛꜱ.
-ꜰᴏʀ ᴜꜱɪɴɢ ᴛʜᴇ ᴍᴏᴅᴜʟᴇ ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴛʜᴇ ᴛᴇxᴛ ᴀɴᴅ ᴏᴇᴩʟᴀʏ ᴛɪ ɪᴛ ᴡɪᴛʜ  /carbon ᴄᴏᴍᴍᴀɴᴅ ᴛʜᴇ ʙᴏᴛ ᴡɪʟʟ ᴩᴇᴩᴀʏ ᴡɪᴛʜ ᴛʜᴇ ᴄᴀʀʙᴏɴ ɪᴍᴀɢᴇ
-
-</b>"""
-
-    SONG_TXT = """<b>sᴏɴɢ ᴅᴇᴛᴀɪʟs
-sᴏɴɢ sᴇᴀʀᴄʜ ᴠɪᴅᴇᴏ ᴀɴᴅ ᴀᴜᴅɪᴏ
-
-ᴇxᴀᴍᴘʟᴇ -
-sᴀᴀᴠɴ sᴏɴɢs ᴄᴏᴍᴍᴀɴᴅ
-/𝐬𝐬𝐨𝐧𝐠 ᴀʟᴏɴᴇ 
-/𝐬𝐯𝐢𝐝𝐞𝐨 ᴀʟᴏɴᴇ
-
-ʏᴛ ᴠɪᴅᴇᴏ ᴄᴏᴍᴍᴀɴᴅ
-/𝐲𝐬𝐨𝐧𝐠 ᴀʟᴏɴᴇ ᴏʀ ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ
-/𝐲𝐯𝐢𝐝𝐞𝐨  ᴀʟᴏɴᴇ ᴏʀ ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ
-</b>"""
-
+    
     ALIVE = """<b>ᴘɪɴɢ ᴅᴇᴛᴀɪʟs -</b>
 /𝐀𝐥𝐢𝐯𝐞 𝐁𝐨𝐭 𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞 𝐓𝐞𝐬𝐭 𝐂𝐨𝐦𝐦𝐚𝐧𝐝
 
 /𝐩𝐢𝐧𝐠 𝐁𝐨𝐭 𝐒𝐩𝐞𝐞𝐝 𝐓𝐞𝐬𝐭
 """
-
-    REPO = """<b>ʀᴇᴘᴏ ᴅᴇᴛᴀɪʟs -</b>Tʜɪs Rᴇᴘᴏ Is Eᴅɪᴛᴇᴅ Bʏ 𓆩•𝐊𝐢𝐬𝐬𝐮 💞•𓆪 Aɴᴅ I Aᴍ Nᴏᴛ Iɴᴛᴇʀsᴛᴇᴅ Sᴇʟʟɪɴɢ Oʀ Dɪsᴛʀɪʙᴜᴛɪᴏɴ Oғ Rᴇᴘᴏsɪᴛᴏʀʏ. Tʜᴀɴᴋs Fᴏʀ Yᴏᴜʀ Cᴏ-ᴏᴘᴇʀᴀᴛɪᴏɴ"""
-
-    SHORTNER = """<b>ᴜʀʟ sʜᴏʀᴛɴᴇʀ</b>
-
-ᴛʜɪs ᴍᴏᴅᴜʟᴇ ʜᴇʟᴘs ʏᴏᴜ ᴛᴏ sʜᴏʀᴛ ᴀ ᴜʀʟ ᴀɴᴅ Yᴏᴜ ᴄᴀɴ ᴇᴀʀɴ ᴍᴏɴᴇʏ ғʀᴏᴍ ᴛʜɪs ʙᴏᴛ ᴜɴᴛɪʟ ᴛʜɪs ʙᴏᴛ ɪs ᴀʟɪᴠᴇ.
-
-➤ ᴄᴏᴍᴍᴀɴᴅs:
-
-➪ /short - 𝗎𝗌𝖾 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝖺𝗇𝖽 𝗐𝗂𝗍𝗁 𝗒𝗈𝗎𝗋 𝗅𝗂𝗇𝗄 𝗍𝗈 𝗀𝖾𝗍 𝗌𝗁𝗈𝗋𝗍𝖾𝖽 𝗅𝗂𝗇𝗄𝗌
-➪ /shortlinkon - ᴏɴ ꜱʜᴏʀᴛʟɪɴᴋ ꜰᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
-➪ /shortlinkoff - ᴏꜰꜰ ꜱʜᴏʀᴛʟɪɴᴋ ꜰᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
-➪ /get_info - ᴄʜᴇᴄᴋ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ.
-➪ /set_shortlink - ᴛᴏ sᴇᴛ ᴀ sʜᴏʀᴛʟɪɴᴋ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ, use ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ
-➪ /set_tutorial - ᴛᴏ sᴇᴛ ᴜᴘ ʏᴏᴜʀ ᴏᴡɴ sʜᴏʀᴛᴇɴᴇʀ ᴛᴜᴛᴏʀɪᴀʟ, ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ"""
-
-    LYRICS = """<b>ʟʏʀɪᴄs</b>
-
-ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴘ ᴏғ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ʟʏʀɪᴄs ᴏғ sᴏɴɢs.
-
-➤ ᴄᴏᴍᴍᴀɴᴅ:
-
-➪ /lyrics - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ɢᴇᴛ ʟʏʀɪᴄs."""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
@@ -578,54 +443,6 @@ sᴀᴀᴠɴ sᴏɴɢs ᴄᴏᴍᴍᴀɴᴅ
  • 𝗆 = 𝗆𝗂𝗇𝗎𝗍𝖾𝗌
  • 𝗁 = 𝗁𝗈𝗎𝗋𝗌
  • 𝖽 = 𝖽𝖺𝗒𝗌"""
-
-    GAME_TXT = """<b>Gᴀᴍᴇs</b> 
-
-<b>ɢᴀᴍᴇs  ᴍᴏᴅᴜʟᴇ
-    
-🏸 ᴊᴜsᴛ sᴏᴍᴇ ᴋɪɴᴅ ᴏꜰ ꜰᴜɴ ᴛʜɪɴɢ's 🏏
- 
-𝟣. /dice - ʀᴏʟᴇ ᴛʜᴇ ᴅɪᴄᴇ
-𝟤. /Throw ᴏʀ /Dart - ᴛᴏ ᴍᴀᴋᴇ ᴅᴀʀᴛ
-3. /Runs - sᴏᴍᴇ ʀᴀɴᴅᴏᴍ ᴅɪᴀʟᴏɢᴜᴇs
-4. /Goal ᴏʀ /Shoot - ᴛᴏ ᴍᴀᴋᴇ ᴀ ɢᴏᴀʟ ᴏʀ sʜᴏᴏᴛ
-5. /luck ᴏʀ /cownd - sᴘɪɴ ᴀɴᴅ ᴛʀʏ ʏᴏᴜʀ ʟᴜᴄᴋ</b>"""
-
-    CC_TXT = """
-<b>HELP: CC Tools
-
-Credit Card stuffs being easy with CC Module!
-
-USAGE:
-➢ /sk - Check if stripe key is live or not.
-➢ /bin - Check if given bin is valid or not.
-➢ /fake - Generate random fake user details.
-➢ /gen - Generate random credit cards info.
-➢ /cc - Generate random credit cards.
-
-NOTE:
-• Bᴏᴛ should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member.</b>"""
-
-    ANIME_TXT = """
-<b>Get information about animes, manga and characters!
-
-USAGE:
-➢ /neko [-n] - Get random neko picture (-n for nsfw).
-➢ /waifu [-n] - Get random waifu picture (-n for nsfw).
-➢ /anime [name] - Get the information about the anime.
-➢ /manga [name] - Get the information about the manga.
-➢ /hentai [name] - Get and read the hentai manga (nsfw).
-➢ /hentai [-r] - Get random hentai manga to read (nsfw).
-➢ /aninews - Get latest anime news from myanimelist.net.
-➢ /aniquote - Get awesome random anime quotes everytime.
-➢ /character [name] - Get the information about the character.
-
-NOTE:
-• Bᴏᴛ should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member.</b>"""
 
 
     DONATION_TXT = """<b>donation</b> 
@@ -669,49 +486,6 @@ Cᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ Uꜱᴀɢᴇ:
     STATUS = """{}\n<b>Chat Member Status</b>**\n\n```<i>Recently``` - {}\n```Within Week``` - {}\n```Within Month``` - {}\n```Long Time Ago``` - {}\nDeleted Account - {}\nBot - {}\nUnCached - {}</i>
 """
 
-    VSONG = """
-» ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ꜰᴏʀ sᴏɴɢ ᴀɴᴅ ᴠɪᴅᴇᴏ :
-
-➻ /vsong - ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ ʏᴏᴜᴛᴜʙᴇ sᴏɴɢ
-➻ /vvideo - ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ ʏᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏ
-➻ /song - sᴘᴏᴛɪғʏ sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ
-"""
-    CHATAI = """
-» ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ꜰᴏʀ   ᴄʜᴀᴛ ᴀɪ :
-
- ᴀɪ ᴄᴀɴ ᴀɴsᴡᴇʀ ʏᴏᴜʀ ǫᴜᴇsᴛɪᴏɴ  ᴀɴᴅ sʜᴏᴡs ʏᴏᴜ ᴛʜᴇ ʀᴇsᴜʟᴛ
-
- ❍ /chatgpt  : ʀᴇᴘʟʏ ᴛᴏ ᴍᴇssᴀɢᴇ ᴏʀ ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ
- ❍ /lucy : ʀᴇᴘʟʏ ᴛᴏ ᴍᴇssᴀɢᴇ ᴏʀ ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ
- ❍ /ask : ᴀɪ ɢᴏᴏɢʟᴇ ᴀɪ 
- ❍ /gpt : chatgpt
- ❍ /chat :  ʀᴇᴘʟʏ ᴛᴏ ᴍᴇssᴀɢᴇ ᴏʀ ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ
-"""
-
-    YTSEARCH = """
-The YouTube search module is a feature on the YouTube platform that allows users to search for specific videos, channels, or topics. When you enter a search query in the search bar on YouTube, the search module displays relevant results based on your query. You can filter the results by videos, channels, playlists, or live streams to find the content you are looking for. The search module also provides suggestions as you type, making it easier to discover new content on YouTube. Additionally, the search module may display trending or popular videos related to your search query. Overall, the YouTube search module is a powerful tool that helps users find and explore a wide range of video content on the platform.
-
-ᴄᴏᴍᴍᴀɴᴅ
- ❍ /ytsearch: sᴇᴀʀᴄʜ ʏᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏ
- ❍ /google : google search
-"""
-
-    WALL = """
-» ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ꜰᴏʀ ᴡᴀʟʟᴘᴀᴘᴇʀs:
-
-❍ /wall: sᴇᴀʀᴄʜ ᴡᴀʟʟᴘᴀᴘᴇʀ ᴏғ ᴛʜᴇ ɢɪᴠᴇɴ ᴛᴇxᴛ
-❍ /wallpaper : sᴇᴀʀᴄʜ ᴡᴀʟʟᴘᴀᴘᴇʀ ᴏғ ᴛʜᴇ ɢɪᴠᴇɴ ᴛᴇxᴛ
-Example:
-
-/wall mikey
-"""
-
-    TORRENT = """
-ᴛᴏʀʀᴇɴᴛ sᴇᴀʀᴄʜ ᴄᴏᴍᴍᴀɴᴅ
-
-ᴇxᴀᴍᴘʟᴇ : /torrent ᴍᴏɴᴇʏ ʜᴇɪsᴛ
-"""
-
 
     EXTRA_MOD = """
 ᴛʜᴇʀᴇ ᴀʀᴇ sᴏᴍᴇ ᴏғ ᴍɪɴᴇ ᴇxᴛʀᴀ ғᴇᴀᴛᴜʀᴇs, ᴇɴɪᴏʏ!
@@ -719,21 +493,9 @@ Example:
 ➢ /imdb - ɢᴇᴛ ᴛʜᴇ ғɪʟᴍ ɪɴғᴏ ғʀᴏᴍ IMDʙ.
 ➢ /eval - ᴛᴏ ᴇᴠᴀʟᴜᴀᴛᴇ sɪᴍᴘʟᴇ ᴄᴏᴅᴇ
 ➢ /info - ᴛᴏ get ur info
-➢ /animememe - ɢᴇᴛ ᴀɴɪᴍᴇ ᴍᴇᴍᴇs.
-➢ /write - ᴡʀɪᴛᴇ ᴛᴇxᴛ ᴀs ʜᴀɴᴅᴡʀɪᴛɪɴɢ.
-➢ /afk - ᴍᴀʀᴋ ʏᴏᴜʀsᴇʟғ ᴀs ᴀғᴋ.
-➢ /truth  : sᴇɴᴅs ᴀ ʀᴀɴᴅᴏᴍ ᴛʀᴜᴛʜ sᴛʀɪɴɢ.
-➢ /dare  : sᴇɴᴅs ᴀ ʀᴀɴᴅᴏᴍ ᴅᴀʀᴇ sᴛʀɪɴɢ.
-➢ /song : ᴅᴏᴡɴʟᴏᴀᴅ sᴏɴɢ ғʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ
-➢ /spotify : ғɪɴᴅ ᴛʜᴇ sᴏɴɢ ᴅᴇᴛᴀɪʟs ʙʏ ᴜʀ ʀᴇǫᴜᴇsᴛ
-➢ /instagram : sᴇɴᴅ ɪɴsᴛᴀɢʀᴀᴍ ʀᴇᴇʟ,sᴛᴏʀɪᴇs ᴀɴᴅ ᴘᴏsᴛ ʟɪɴᴋ ᴛᴏ ᴛʜɪs ʙᴏᴛ, ғᴏʀ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ, ᴘᴜʙʟɪᴄ ᴏɴʟʏ.
-➢ /autorequst : ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ᴜʀ ᴄʜᴀɴɴᴇʟ ᴏʀ ɢʀᴏᴜᴘ ᴀɴᴅ sᴇᴇ ᴍᴀɢɪᴄ
-➢ /t2f - ᴛᴏ ᴄᴏɴᴠᴇʀᴛ ᴛʜᴇ ᴛᴇxᴛ ᴛᴏ ғɪʟᴇ ᴡɪᴛʜ ᴀɴʏ ᴛᴇxᴛ ғɪʟᴇ ғᴏʀᴍᴀᴛs
-➢ /logo (Text) : ᴄʀᴇᴀᴛᴇ ᴀ ʟᴏɢᴏ ᴏғ ʏᴏᴜʀ ɢɪᴠᴇɴ ᴛᴇxᴛ ᴡɪᴛʜ ʀᴀɴᴅᴏᴍ ᴠɪᴇᴡ.
-➢ /animelogo (Text) : ᴄʀᴇᴀᴛᴇ ᴀ anime ʟᴏɢᴏ ᴏғ ʏᴏᴜʀ ɢɪᴠᴇɴ ᴛᴇxᴛ ᴡɪᴛʜ ʀᴀɴᴅᴏᴍ ᴠɪᴇᴡ.
 
 ɴᴏᴛᴇ:
-• ʟᴜᴄʏ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
 • ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
 • ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ.
 
@@ -767,7 +529,7 @@ Example:
 👮🏻 /delall - ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ᴡʜᴏʟᴇ ꜰɪʟᴛᴇʀꜱ ɪɴ ᴀ ᴄʜᴀᴛ (ᴄʜᴀᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)
 
 ɴᴏᴛᴇ:
-• ʟᴜᴄʏ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
 • ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
 • ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ.
 
@@ -797,7 +559,7 @@ Example:
 
 
 ɴᴏᴛᴇ:
-• 𝐒𝐀𝐍𝐘𝐀 sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
 • ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
 • ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ.
 
@@ -810,7 +572,7 @@ Example:
  ➻ /gpt : ᴄʜᴀᴛɢᴘᴛ
 
 ɴᴏᴛᴇ:
-• ʟᴜᴄʏ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
 • ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
 • ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ.
 
@@ -851,8 +613,8 @@ Example:
 ● <code>250₹</code> ➛ <u>ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ</u> » <code>180 ᴅᴀʏꜱ</code>
 ● <code>400₹</code> ➛ <u>ᴅɪᴀᴍᴏɴᴅ ᴘʟᴀɴ</u> » <code>365 ᴅᴀʏꜱ</code>
 
-💵 ᴜᴘɪ ɪᴅ - <code>dm - @sewxiy</code>
-📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://t.me/kissuhelp'>Dᴍ Tᴏ Gᴇᴛ QR Cᴏᴅᴇ</a>
+💵 ᴜᴘɪ ɪᴅ - <code>dm - @xaekks</code>
+📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://t.me/xaekks'>Dᴍ Tᴏ Gᴇᴛ QR Cᴏᴅᴇ</a>
 
 ⚜️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan
 
@@ -885,7 +647,7 @@ Example:
 ○ ᴍᴜʟᴛɪ-ᴘʟᴀʏᴇʀ sᴛʀᴇᴀᴍɪɴɢ ʟɪɴᴋs
 ○ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ
 
-👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ <a href='https://t.me/kissuhelp'>ᴏᴡɴᴇʀ</a> ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴛʀɪᴀʟ.
+👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ <a href='https://t.me/xaekks'>ᴏᴡɴᴇʀ</a> ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴛʀɪᴀʟ.
 
 ➛ ᴜꜱᴇ /plan ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴏᴜʀ ᴘʟᴀɴꜱ ᴀᴛ ᴏɴᴄᴇ.
 ➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>"""
@@ -952,7 +714,7 @@ Example:
     
 ⚜️ ᴘᴀʏ ᴀᴍᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ᴘʟᴀɴ ᴀɴᴅ ᴇɴᴊᴏʏ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ !
 
-💵 ᴜᴘɪ ɪᴅ - <code>dm - @kissuhelp</code>
+💵 ᴜᴘɪ ɪᴅ - <code>dm - @xaekks</code>
 
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.</b>"""
 
@@ -960,7 +722,7 @@ Example:
     
 ⚜️ ᴘᴀʏ ᴀᴍᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ᴘʟᴀɴ ᴀɴᴅ ᴇɴᴊᴏʏ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ !
 
-📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://t.me/kissuhelp'>Dᴍ Tᴏ Gᴇᴛ QR Cᴏᴅᴇ</a>
+📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://t.me/xaekks'>Dᴍ Tᴏ Gᴇᴛ QR Cᴏᴅᴇ</a>
 
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.</b>"""
 
@@ -974,8 +736,8 @@ Example:
 ● <code>250₹</code> ➛ <u>ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ</u> » <code>180 ᴅᴀʏꜱ</code>
 ● <code>400₹</code> ➛ <u>ᴅɪᴀᴍᴏɴᴅ ᴘʟᴀɴ</u> » <code>365 ᴅᴀʏꜱ</code>
 
-💵 ᴜᴘɪ ɪᴅ - <code>dm - @kissuhelp</code>
-📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://t.me/kissuhelp'>Dᴍ Tᴏ Gᴇᴛ QR Cᴏᴅᴇ</a>
+💵 ᴜᴘɪ ɪᴅ - <code>dm - @xaekks</code>
+📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://t.me/xaekks'>Dᴍ Tᴏ Gᴇᴛ QR Cᴏᴅᴇ</a>
 
 ⚜️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan
 
