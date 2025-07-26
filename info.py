@@ -24,10 +24,10 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '25062453'))
-API_HASH = environ.get('API_HASH', 'ccf735bb7d834b95ec85657c604cb49f')
-OWNER_ID = environ.get('OWNER_ID', '6670354006')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6625875921:AAEyc5QoqfghLeEUicDK4BMTOFXFNBSwqQA')
+API_ID = int(environ.get('API_ID'))
+API_HASH = environ.get('API_HASH')
+OWNER_ID = environ.get('OWNER_ID')
+BOT_TOKEN = environ.get('BOT_TOKEN')
 
 # for eval function, work only in a specific group
 EVAL_ID = environ.get("EVAL_ID", "-1001566837125")
@@ -69,9 +69,9 @@ COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 PREFIX = environ.get("PREFIX", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://3rc8kisoem:xymQqPIANbkFFK7X@cluster0.avgnpd3.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://genipagena0x5:egNG6viGTdquajan@cluster0.4xdpezd.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Autofilter')
 
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
