@@ -1532,13 +1532,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra')
         ], [
             InlineKeyboardButton('ꜰᴏɴᴛ', callback_data='font'),
-            InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ', callback_data='sticker'),
+            InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ', callback_data='stats'),
             InlineKeyboardButton('ʀᴜʟᴇꜱ', callback_data='rule')
-        ], [
-            InlineKeyboardButton('ʏᴛᴛʜᴜᴍʙ', callback_data='ytthumb'),
-            InlineKeyboardButton('ʏᴛᴠɪᴅ', callback_data='video'),
-            InlineKeyboardButton('ʏᴛᴛᴀɢꜱ', callback_data='yttags')
-        ], [
+        ],[
             InlineKeyboardButton('• ʜᴏᴍᴇ •', callback_data='main')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1985,22 +1981,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "tele":
-            buttons = [[
-                    InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="help"),
-                    InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', callback_data='group_info')
-                  ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(buttons)
-            await query.message.edit_text(
-                text=(script.TELEGRAPH_TXT),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )
+    
     elif query.data == "settings":
             buttons = [[
                     InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="help"),
@@ -2033,54 +2014,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
-    elif query.data == "ytthumb":
-        buttons = [[
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', callback_data='group_info')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
-        )
-        await query.message.edit_text(
-            text=script.YTTHUMB,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
-    elif query.data == "video":
-            buttons = [[
-                    InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="help"),
-                    InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', callback_data='group_info')
-                  ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(buttons)
-            await query.message.edit_text(
-                text=(script.VIDEO_TXT),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )
-    elif query.data == "yttags":
-            buttons = [[
-                    InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="help"),
-                    InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', callback_data='group_info')
-                  ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(buttons)
-            await query.message.edit_text(
-                text=(script.YTTAGS),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )
+    
     elif query.data == "kissu":
         buttons = [[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'),
@@ -2110,22 +2044,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.message.edit_text(
             text=script.DONATE,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
-    elif query.data == "github":
-        buttons = [[
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', callback_data='group_info')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
-        )
-        await query.message.edit_text(
-            text=script.GITHUB,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
@@ -2162,22 +2080,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "song":
-        buttons = [[
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', callback_data='group_info')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
-        )
-        await query.message.edit_text(
-            text=script.SONG_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
+    
     elif query.data == "purge":
         buttons = [[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'),
@@ -2207,40 +2110,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.message.edit_text(
             text=script.ALIVE,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
-    
-    elif query.data == "repo":
-        buttons = [[
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', callback_data='group_info')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
-        )
-        await query.message.edit_text(
-            text=script.REPO,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
-    
-    elif query.data == "shortner":
-        buttons = [[
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', callback_data='group_info')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
-        )
-        await query.message.edit_text(
-            text=script.SHORTNER,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
