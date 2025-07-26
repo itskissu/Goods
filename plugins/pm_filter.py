@@ -398,7 +398,8 @@ async def languages_cb_handler(client: Client, query: CallbackQuery):
     except:
         pass
     _, key = query.data.split("#")
-        search = FRESH.get(key)
+        
+    search = FRESH.get(key)
     search = search.replace(' ', '_')
     btn = []
     for i in range(0, len(LANGUAGES)-1, 2):
@@ -550,7 +551,8 @@ async def seasons_cb_handler(client: Client, query: CallbackQuery):
         pass
     
     _, key = query.data.split("#")
-        search = FRESH.get(key)
+        
+    search = FRESH.get(key)
     BUTTONS[key] = None
     search = search.replace(' ', '_')
     btn = []
