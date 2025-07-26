@@ -71,7 +71,7 @@ PREFIX = environ.get("PREFIX", "/")
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://genipagena0x5:egNG6viGTdquajan@cluster0.4xdpezd.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Autofilter')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'AutoFilter')
 
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
